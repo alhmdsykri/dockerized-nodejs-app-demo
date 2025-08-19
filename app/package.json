@@ -1,0 +1,13 @@
+{
+  "name": "dockerized-nodejs-app-demo",
+  "version": "1.0.0",
+  "description": "Simple Node.js app containerized with Docker, runnable via docker-compose, and published via GitHub Actions.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
